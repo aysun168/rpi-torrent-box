@@ -133,3 +133,4 @@ log.open_file = "rtorrent.log", /dev/stdout
 log.add_output = "error", "rtorrent.log"
 network.http.capath= /rtorrent/ssl
 network.http.cacert= /rtorrent/ssl/certificates.pem
+network.http.ssl_verify_peer.set=0
